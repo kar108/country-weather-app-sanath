@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    margin-top: 1rem ;
+    width: 100%;
+  }
+  
+  tr {
+    display: flex;
+  }
+
+
+  th {
+    background-color:var(--foregroundColor) ;
+    color:black;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+  }
+
+  td{
+    color:white;
+  }
+
+  img{
+    height:80px;
+    width:110px;
+  }
+
+  
